@@ -3,6 +3,10 @@
 
 # [Models](models)
 + contains the various U-Net model architectures we used for our project
++ our final model for the Ultrasound Nerve Dataset was
+  [models/train_long.py](models/train_long.py)
++ our final model for the hippocampus mitochondria dataset was
+  [models/train_long_mito.py](models/train_long_mito.py)
 
 # [data.py](data.py)
 + used to convert raw image files into large .npy data files
